@@ -166,5 +166,19 @@ h3{
   width: 100%;
   font-size: 20px;
 }
+ 
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1a1e26;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0088a9;;
+    border-radius: 100px;
+}
 
  
