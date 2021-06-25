@@ -135,6 +135,7 @@ transition: all 0.3s ease 0s ;
     align-items: center;
     padding: -20px 5% ;
     scroll-snap-align:start ; 
+    margin-top:10px
 }
 
 
