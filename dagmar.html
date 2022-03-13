@@ -707,24 +707,28 @@ I help small businesses stand out on the web by providing them with a unique cus
             </h2>
 
             <form data-netlify="true"  name="contact" method="POST" class="w-md-80 form-clean inputs-transparent" data-tor-group=".form-control => !focus:[border(dark) bg(light)];" >
-              
+              <div class="mb-3">
                 <label  for="contact-name" class="form-label opacity-70">Your name</label>
-                <input  type="text"  name="name" class="form-control p-3 border-bottom" id="contact-name" aria-describedby="contact-name">
+                <input  type="text"  name="name" required="required" class="form-control p-3 border-bottom" id="contact-name" aria-describedby="contact-name">
+              </div>
                 
               
-              
+                <div class="mb-3">
                 <label for="contact-email" class="form-label opacity-70">Your email</label>
-                <input type="email" name="email" class="form-control p-3 border-bottom" id="contact-email" aria-describedby="contact-email">
+                <input type="email" name="email" required="required" class="form-control p-3 border-bottom" id="contact-email" aria-describedby="contact-email">
+                </div>
                 
             
-             
+              <div class="mb-3">
                 <label for="contact-subject" class="form-label opacity-70">Subject</label>
                 <input type="text" name="subject" class="form-control p-3 border-bottom" id="contact-subject" aria-describedby="contact-subject">
+              </div>
                
               
-              
+                <div class="mb-2">
                 <label for="contact-message" class="form-label opacity-70">Message</label>
-                <textarea name="message" class="form-control p-3 border-bottom" id="contact-message" rows="2"></textarea>
+                <textarea name="message" required="required" class="form-control p-3 border-bottom" id="contact-message" rows="2"></textarea>
+                </div>
               
               <button type="submit" class="btn btn-primary btn-arrow py-2 px-3 float-md-end w-100 w-md-auto">Submit</button>
               
