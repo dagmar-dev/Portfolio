@@ -1,0 +1,79 @@
+.experience-h {
+    color: #df5343 !important;
+}
+.icons-sec {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    gap: 2em;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+}
+i {
+    color: #df533f;
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+.icon-text {
+    color: #df533f;
+}
+.box-adjust {
+    height: 30vh;
+    width: 33.33%;
+    margin: 1rem;
+}
+.box-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: ;
+}
+.inner-box1 {
+    height: 33.33vh;
+    background: #df5343;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.inner-box2 {
+    height: 33.33vh;
+    background: #198653;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.inner-box3 {
+    height: 33.33vh;
+    gap: 0.5em;
+    background: #5e889d;
+    padding: 1rem;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media screen and (max-width: 1172px) {
+    .box-flex {
+        flex-direction: column;
+    }
+    .box-adjust {
+        width: 100%;
+    }
+}
